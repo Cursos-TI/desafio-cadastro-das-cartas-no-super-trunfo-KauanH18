@@ -1,12 +1,14 @@
-int main() {
+#include <stdio.h>
+
+    int main() {
 
     char nome[30];
 
  printf("Digite o nome da cidade: ");
-scarf(" %s", nome);
+scarf(" %c", nome);
 
     printf("\nDados cadastrados: \n");  
-printf("Nome: %s\n", nome);
+printf("Nome: %c\n", nome);
 
     return 0;
 }

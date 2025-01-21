@@ -13,14 +13,14 @@ int main() {
     float area;
     float pib;
     int pontos_turisticos;
-    char nome[30];
+    long nome[30];
 
 //Apresentação
     printf("Bem-Vindo ao Super Trufo! \n"); 
 
 //Pergunta os dados e armazena-os 
     printf("Digite o nome da cidade: ");
-    scarf(" %s", nome);
+    scanf(" %s", &nome);
 
     printf("Digite o codigo da carta (ex: 01, 02): ");
     scanf(" %s", &codigo_carta);
