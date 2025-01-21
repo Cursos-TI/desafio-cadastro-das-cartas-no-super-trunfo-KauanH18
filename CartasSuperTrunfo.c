@@ -7,19 +7,20 @@
 //Teste larissa
 
 int main() {
-    char nome[100];
+    
     char codigo_carta[3];
     int populacao;
     float area;
     float pib;
     int pontos_turisticos;
+    char nome[30];
 
 //Apresentação
     printf("Bem-Vindo ao Super Trufo! \n"); 
 
 //Pergunta os dados e armazena-os 
-    printf("Digite o nome da cidade: "); 
-    scanf(" %s", &nome); 
+    printf("Digite o nome da cidade: ");
+    scarf(" %s", nome);
 
     printf("Digite o codigo da carta (ex: 01, 02): ");
     scanf(" %s", &codigo_carta);
@@ -44,6 +45,8 @@ printf("População: %d\n", populacao);
 printf("Área: %f km²\n", area);
 printf("PIB: %g bilhões de reais\n", pib);
 printf("Número de pontos Turísticos: %d\n", pontos_turisticos);
+
+
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
